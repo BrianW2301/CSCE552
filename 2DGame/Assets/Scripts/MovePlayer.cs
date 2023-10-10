@@ -33,7 +33,7 @@ public class MovePlayer : MonoBehaviour
     private void FixedUpdate()
     {
         moveVector.x = Input.GetAxis("Horizontal");
-        moveVector = moveVector.normalized * moveSpeed;
+        moveVector = moveVector * moveSpeed;
         moveVector.y = rb.velocity.y;
         rb.velocity = moveVector;
     }
