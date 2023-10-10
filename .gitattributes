@@ -126,3 +126,4 @@
 *.gz lfs
 *.rar lfs
 *.tar lfs
+*.dylib filter=lfs diff=lfs merge=lfs -text
