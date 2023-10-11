@@ -13,7 +13,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Button
   - 
   - 
   - 
@@ -51,4 +51,7 @@ TagManager:
     locked: 0
   - name: Trap
     uniqueID: 766570745
+    locked: 0
+  - name: Button
+    uniqueID: 1112300209
     locked: 0
