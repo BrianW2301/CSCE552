@@ -1,0 +1,89 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void MainMenu_Play_m83A060624413533808E63A4420ECEFA5A9FB07E6 (void);
+extern void MainMenu_Quit_m2B85ACAF7EFBA8E95FAE62830FEB6D390A4CC78E (void);
+extern void MainMenu__ctor_m8209CEC1D907C87A96D777961F4D0536E6E948DD (void);
+extern void MovePlayer_Start_m608953308DD695B68D7E8927A506FFB366943EBA (void);
+extern void MovePlayer_Update_mB2024089C129F95C3A8C7B645E691BD181AB9893 (void);
+extern void MovePlayer_FixedUpdate_mCFB64F70ABD7378D082F60DDE3FF8B35AB8F1872 (void);
+extern void MovePlayer_OnCollisionEnter2D_mB164608FB48D740634CFCB44E95CE4188A34EFCE (void);
+extern void MovePlayer_OnCollisionExit2D_mC7D7D1D44B71A227E149E5125B755A9D9ECF3F26 (void);
+extern void MovePlayer__ctor_m193AFF3E915B78AB820AF503E1E4772214351CDC (void);
+extern void PauseScreen_Start_m4E47A73C4B9E5C75CC0F0374363945A03AE65A86 (void);
+extern void PauseScreen_Update_m364E6C24D0ACDD17EB39556F2D18A60A1D409BC7 (void);
+extern void PauseScreen_Resume_m5B295A2BF5DD4EF5782C744AD444513E2268CA5C (void);
+extern void PauseScreen_Menu_mBEC48C2F03DF6528BF664E35B580FF5C4F4F5A5A (void);
+extern void PauseScreen__ctor_mBE2F57D5C2D6DBFB827B17E757210DDEBFDA0A93 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[16] = 
+{
+	MainMenu_Play_m83A060624413533808E63A4420ECEFA5A9FB07E6,
+	MainMenu_Quit_m2B85ACAF7EFBA8E95FAE62830FEB6D390A4CC78E,
+	MainMenu__ctor_m8209CEC1D907C87A96D777961F4D0536E6E948DD,
+	MovePlayer_Start_m608953308DD695B68D7E8927A506FFB366943EBA,
+	MovePlayer_Update_mB2024089C129F95C3A8C7B645E691BD181AB9893,
+	MovePlayer_FixedUpdate_mCFB64F70ABD7378D082F60DDE3FF8B35AB8F1872,
+	MovePlayer_OnCollisionEnter2D_mB164608FB48D740634CFCB44E95CE4188A34EFCE,
+	MovePlayer_OnCollisionExit2D_mC7D7D1D44B71A227E149E5125B755A9D9ECF3F26,
+	MovePlayer__ctor_m193AFF3E915B78AB820AF503E1E4772214351CDC,
+	PauseScreen_Start_m4E47A73C4B9E5C75CC0F0374363945A03AE65A86,
+	PauseScreen_Update_m364E6C24D0ACDD17EB39556F2D18A60A1D409BC7,
+	PauseScreen_Resume_m5B295A2BF5DD4EF5782C744AD444513E2268CA5C,
+	PauseScreen_Menu_mBEC48C2F03DF6528BF664E35B580FF5C4F4F5A5A,
+	PauseScreen__ctor_mBE2F57D5C2D6DBFB827B17E757210DDEBFDA0A93,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[16] = 
+{
+	4645,
+	4645,
+	4645,
+	4645,
+	4645,
+	4645,
+	3763,
+	3763,
+	4645,
+	4645,
+	4645,
+	4645,
+	4645,
+	4645,
+	6886,
+	4645,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	16,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
