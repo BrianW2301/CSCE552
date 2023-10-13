@@ -15,6 +15,7 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
   void Start()
   {
+    timerText.text = "";
     loseSound.SetActive(false);
     timeRemaining = 25;
     loseScreen.SetActive(false);
