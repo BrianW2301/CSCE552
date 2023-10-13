@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - MainMenu
     - MovePlayer
     - PauseScreen
+    - Timer
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
@@ -54,6 +55,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -83,6 +85,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
@@ -94,8 +97,20 @@ ScriptsOnlyBuild:
     fullTypeName: MainMenu
     methodName: Quit
   - assembly: Assembly-CSharp
+    fullTypeName: MovePlayer
+    methodName: Retry
+  - assembly: Assembly-CSharp
+    fullTypeName: MovePlayer
+    methodName: Menu
+  - assembly: Assembly-CSharp
     fullTypeName: PauseScreen
     methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: MovePlayer
+    methodName: Menu
+  - assembly: Assembly-CSharp
+    fullTypeName: MovePlayer
+    methodName: Retry
   - assembly: Assembly-CSharp
     fullTypeName: PauseScreen
     methodName: Menu
@@ -178,6 +193,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -191,6 +210,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5944}
     - Class: 114
+      Script: {instanceID: 6274}
+    - Class: 114
       Script: {instanceID: 6648}
     - Class: 114
       Script: {instanceID: 6860}
@@ -200,6 +221,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7318}
     - Class: 114
       Script: {instanceID: 9172}
+    - Class: 114
+      Script: {instanceID: 39542}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -917,7 +940,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: b56897c40f692499eaf8d6d7bc7c4c58
+      Hash: cc5ff0b40a458a73e1b8efea03302318
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MovePlayer
@@ -1163,7 +1186,7 @@ ScriptsOnlyBuild:
     className: SpriteLibrarySourceAsset
   - hash:
       serializedVersion: 2
-      Hash: 26160247c74363b50ef142a08fcc2412
+      Hash: 3f50bccd7edc1fee091a941a9356c466
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PauseScreen
@@ -1221,6 +1244,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: efb0d84b95453235b12b588675fe570b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Timer
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

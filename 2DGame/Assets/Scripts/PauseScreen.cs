@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PauseScreen : MonoBehaviour
 {
   [SerializeField] GameObject pauseScreen;
+  public AudioSource selectSound;
 
   void Start()
   {
@@ -32,12 +33,14 @@ public class PauseScreen : MonoBehaviour
 
   public void Resume()
   {
+    selectSound.Play();
     Time.timeScale = 1f;
     pauseScreen.SetActive(false);
   }
 
   public void Menu()
   {
+    selectSound.Play();
     Time.timeScale = 1f;
     SceneManager.LoadSceneAsync(0);
   }

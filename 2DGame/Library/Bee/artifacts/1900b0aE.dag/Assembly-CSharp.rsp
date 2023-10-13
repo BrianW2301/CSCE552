@@ -376,6 +376,7 @@
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MovePlayer.cs"
 "Assets/Scripts/PauseScreen.cs"
+"Assets/Scripts/Timer.cs"
 -langversion:9.0
 
 /deterministic
